@@ -16,7 +16,7 @@ from .models.proprietario import Proprietarios
 class MysqlConnection:
     def __init__(
         self,
-        db_url: str = "mysql://vinicius.fonseca:Juca1016@db.scod.com.br:3306/scod",
+        db_url: str = "",
     ):
         self.db_url = db_url
 
